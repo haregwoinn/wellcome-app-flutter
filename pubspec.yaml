@@ -1,0 +1,189 @@
+name: welcome
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  # sdk: '>=2.18.5 <3.0.0'
+  sdk: '>=2.12.0 <3.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+ 
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  line_icons: ^2.0.0
+  salomon_bottom_bar: ^3.3.1
+  google_maps_flutter: ^2.2.5
+  flutter_localizations:
+    sdk: flutter
+ 
+  http: ^0.13.3
+  
+  flutter_native_splash: ^2.2.18
+  introduction_screen: ^3.1.8
+  flutter_email_sender: ^5.2.0
+  emailjs: ^1.1.0
+  mailer: ^6.0.1
+  fluttertoast: ^8.2.1
+  url_launcher: ^6.1.11
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.12.0
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+flutter_native_splash:
+  background_image: "assets/images/Untitled-1.png"
+
+  
+flutter_icons:
+  image_path: "assets/images/download.png" 
+  android: true
+  ios: true
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    # - assets/fjson.json
+    - assets/images/techino.png
+    - assets/images/union.jpg
+    - assets/images/charity.png
+    - assets/images/polis.png
+    - assets/images/Arengudi(2).png
+    - assets/images/eth.png
+    - assets/images/download.png
+    - assets/images/selam.jpg
+    - assets/images/sus.jpg
+    - assets/images/muday.png
+    - assets/svg/undraw_destination_re_sr74.svg
+    - assets/bg/bg_code.jpg
+    - assets/bg/wolloai.jpg
+    - assets/field_image/Architecture_engineering.jpg
+    - assets/field_image/Biomedical_engineering.jpg
+    - assets/field_image/Chemical_engineering.jpg
+    - assets/field_image/civil.jpg
+    - assets/field_image/computer_science.jpg
+    - assets/field_image/cotom.jpg
+    - assets/field_image/electrical_enginering.jpg
+    - assets/field_image/Fashion_design.jpg
+    - assets/field_image/Food_engineering.jpg
+    - assets/field_image/Garment_engineering.jpg
+    - assets/field_image/hydrolics.jpg
+    - assets/field_image/industrial_enginering.jpg
+    - assets/field_image/information_system.jpg
+    - assets/field_image/information_technology.jpg
+    - assets/field_image/Leather_engineering.jpg
+    - assets/field_image/mecanical.jpg
+    - assets/field_image/Mechatronics_engineering.jpg
+    - assets/field_image/software_enginering.jpg
+    - assets/field_image/Textile_engineering.jpg
+    - assets/gall/image_1.jpg
+    - assets/gall/image_2.jpg
+    - assets/gall/image_4.jpg
+    - assets/gall/image_5.jpg
+    - assets/gall/image_6.jpg
+    - assets/gall/image_8.jpg
+    - assets/gall/image_10.jpg
+    - assets/gall/image_12.jpg
+    - assets/gall/image_14.jpg
+    - assets/gall/image_15.jpg
+    - assets/gall/image_16.jpg
+    - assets/gall/image_17.jpg
+    - assets/gall/image_18.jpg
+    - assets/gall/image_19.jpg
+    - assets/gall/image_21.jpg
+    - assets/gall/image_22.jpg
+    - assets/gall/image_23.jpg
+    - assets/gall/image_24.jpg
+    - assets/gall/image_25.jpg
+    - assets/gall/image_26.jpg
+    - assets/gall/image_27.jpg
+    - assets/gall/image_28.jpg
+    - assets/gall/image_29.jpg
+    - assets/gall/image_30.jpg
+    - assets/gall/image_31.jpg
+    - assets/gall/image_32.jpg
+    - assets/gall/image_33.jpg
+    - assets/gall/image_34.jpg
+    - assets/gall/image_35.jpg
+    - assets/gall/image_36.jpg
+    - assets/gall/image_37.jpg
+    - assets/gall/image_38.jpg
+    - assets/gall/image_40.jpg
+    - assets/gall/image_41.jpg
+    - assets/gall/image_42.jpg
+    - assets/svg/a.jpg
+    - assets/svg/b.jpg
+    - assets/svg/c.jpg
+    - assets/svg/d.jpg
+    - assets/svg/e.jpg
+    - assets/svg/f.jpg
+    - assets/svg/g.jpg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
